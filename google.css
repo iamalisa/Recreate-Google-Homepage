@@ -1,0 +1,165 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 100%
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: block;
+}
+
+a{
+    padding-left: 15px;
+    color: #222;
+    text-decoration: none;
+
+}
+
+#landing{
+    padding-top: 100px;
+}
+
+#nav-bar{
+    display: inline-block;
+    width: 100%
+}
+.left-nav{
+    float: left;
+    padding-left: 0;
+}
+
+.right-nav{
+    float: right;
+    padding-right: 0;
+}
+
+.dots{
+    vertical-align: middle;
+    width: 30px;
+    padding-left: 15px;
+    color: #5f6368;
+    margin-bottom: 2px;
+    opacity: 0.55;
+    padding-right: 12px;
+}
+
+.sign-in{
+    background-color: rgb(116, 158,71);
+    border-color:rgb(116, 158,71);
+    border-style: none;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px 8px;
+    height: 30px;
+    width: 30px;
+    font-size: 1.2em;
+}
+
+.google-logo{
+    display: block;
+    margin: auto;
+    width: 275px;
+}
+
+.logo{
+    margin: auto;
+    height: calc(100% - 560px);
+}
+#search{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#search-bar {
+    display: table;
+    margin: auto;
+    border: 1px solid #cfcece;
+    border-radius: 50px;
+    width: 470px;
+    height: 40px;
+    margin-top: 30px;
+    
+    }
+
+#search-bar svg {
+    position: relative;
+    top: 5px;
+    width: 20px;
+    fill: grey;
+    margin-left: 15px;
+}
+
+#mic {
+    position: relative;
+    vertical-align: middle;
+    width: 15px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+.google-buttons{
+    margin:30px auto;
+    width: 400px;
+    height: 40px;
+}
+
+
+.google-buttons button{
+    text-align: center;
+    top: 0px;
+    height: 36px;
+    font-size: 11pt;
+    color: #5c5c5c;
+    background: rgb(249, 249,250);
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+
+#google-search-text {
+    width: 385px;
+    height: 35px;
+    font-size: 12pt;
+    margin: 3px;
+    border: none;
+}
+
+#google-search-button{
+    margin-left: 55px;
+}
+
+#feeling-lucky-button{
+    margin-left: 10px;
+
+}
+#footer{
+    background: #f2f2f2;
+    color: rgb(216, 216,218);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    
+
+.left-footer{
+    float: left;
+    padding-left: 0;
+    
+
+
+}
+
+
+.right-footer{
+    float: right;
+    padding-right: 30px;
+   
+
+}
+
